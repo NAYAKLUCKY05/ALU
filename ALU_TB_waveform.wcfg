@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ALU_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ALU_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="120.401 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="229"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/ALU_TB/A" type="array">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/B" type="array">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/z" type="logic">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ALU_TB/c" type="logic">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+</wave_config>
